@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+
+<body>
+  <main>
+    <div class="container2">
+      <div class="image_parfum">
+        <img src="./images/image-product-desktop.jpg" class="img-desktop" alt="perfume">
+        <img src="./images/image-product-mobile.jpg" class="img-mobile" alt="perfume">
+      </div>
+      <div class="container">
+
+        <div class="content">
+          <p data-aos="fade-up" data-aos-duration="500" class="spacing">PERFUME</p>
+
+          <h1 data-aos="fade-up" data-aos-duration="1000">Gabrielle Essence Eau De Parfum</h1>
+
+          <p data-aos="fade-up" data-aos-duration="1500">A floral, solar and voluptuous interpretation composed by Olivier Polge,
+            Perfumer-Creator for the House of CHANEL.</p>
+
+          <div data-aos="fade-up" data-aos-duration="2000" class="prices">
+            <div class="first-price">$149.99</div>
+            <div class="second-price"><s>$169.99</s></div>
+          </div>
+
+          <button data-aos="fade-up" data-aos-duration="2500">
+            <img src="./images/icon-cart.svg" alt="">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Eduardo Tavares</a>.
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
