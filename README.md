@@ -2,7 +2,7 @@
 Product preview card component
 
 ## Preview
-<div align="center">
+<div>
 <img width="50%" src="./images/desktoptemplate.jpg" alt="template no desktop">
 <img width="50%" src="./images/mobiletemplate.jpg" alt="template no desktop">
 </div>
