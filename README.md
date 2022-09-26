@@ -2,10 +2,8 @@
 Product preview card component
 
 ## Preview
-<div>
-<img width="50%" src="./images/desktoptemplate.jpg" alt="template no desktop">
-<img width="50%" src="./images/mobiletemplate.jpg" alt="template no desktop">
-</div>
+![desktoptemplate](./images/desktoptemplate.png)
+![mobiletemplate](./images/mobiletemplate.png)
 
 ## Tecnologias
 - HTML
